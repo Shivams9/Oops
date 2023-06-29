@@ -1,0 +1,33 @@
+#  Class = Class is like a blueprint. Ex : Lion in Zoo. All lions have common characteristics like Color,Weight, and Age and 
+common actions like Roar, Eat, Sleep. So Lion is a class with attributes (color,weight, age) and methods (Roar,Eat, Sleep).
+
+#  Object = An object is a specific instance of a class. Ex : "Simba" is an object of "Lion" class.
+#Define class
+class lion:
+    def __init__(self,color,weight,age,):
+        self.color=color
+        self.weight=weight
+        self.age=age
+        
+    def roar(self):
+        return "ROAR!"
+        
+    def eat(self):
+        return "The lion is eating."
+        
+    def sleep(self):
+        return "The lion is sleeping."
+        
+    
+#Create an object of the lion class
+simba=lion("golded",99,3)
+
+#Using attributes
+print(simba.color)
+print(simba.weight)
+print(simba.age)
+
+#Using Methods
+print(simba.roar())
+print(simba.eat())
+print(simba.sleep())
