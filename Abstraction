@@ -1,0 +1,10 @@
+# Abstraction is like providing simple interface for zoo visitiors to intract with the zoo.
+# They don't need to know how the zoo works, they just need to know what actions they can observe (watch a lion eat,hear a lion ROAR etc)
+
+# We don't need to know the make_sound,eat,sleep methods work
+# We just need to know that we can call them
+
+print(simba.make_sound())
+print(simba.eat())
+print(simba.sleep())
+
