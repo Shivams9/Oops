@@ -1,0 +1,22 @@
+# Class Lion         # Class cub
+
+# Inheritance is like creating a specialized version of a class. Ex : we could create a "Cub" class that inherit form the "LION" class.
+# It has all the attributes and methods of "LION",but we could add new ones,like play().
+
+
+#Define a new class that inherit from the lion class
+class cub(lion):
+    def __init__(self,color,weight,age):
+        super().__init__(color,weight,age)
+        
+    def play(self):
+        return "The cub s playing"
+        
+#Create an object of the class
+nala = cub("golden",50,1)
+
+#nala can use the method of the lion class
+print(nala.roar())
+
+#And also the new method from the cub class
+print(nala..play())
