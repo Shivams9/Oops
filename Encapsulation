@@ -1,0 +1,26 @@
+# Encapsulation is like keeping the details of the animal's daily routine hidden from the zoo visitors.
+# Ex : A visitor can see lion eat (call a method),but vo sab kuch janna nhi chahte details of kisne kaisefood bnaya (internl working)
+
+
+#Define a new class
+def giraffe:
+    def __init__(self,color,weight,age):
+        self.color=color
+        self.weight=weight
+        self.age=age
+    
+    def make_sound(self):
+        return "HUMMM!"
+        
+    def eat(self):
+        return "Giraffe is eating leaves. "
+    
+    def sleep(self):
+        return "Giraffe is sleeping. "
+        
+#Create an object of the Giraffe class
+gerry=giraffe("Brown & White ", 321,6)
+
+#The eat() methods behaves differently for the lion and Giraffe  classes
+print(simba.eat())
+print(gerry.eat())
