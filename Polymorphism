@@ -1,0 +1,26 @@
+#Lion Eat Meat     Giraffe Eat leaves
+# Polymorphism is like being able to use the some methods in different ways for the different classes.
+# EX : Method eats() could behave differently  for a "LION" objects and a "Girrafe" objects, the different diets of these animals
+
+#Define a new class
+def giraffe:
+    def __init__(self,color,weight,age):
+        self.color=color
+        self.weight=weight
+        self.age=age
+    
+    def make_sound(self):
+        return "HUMMM!"
+        
+    def eat(self):
+        return "Giraffe is eating leaves. "
+    
+    def sleep(self):
+        return "Giraffe is sleeping. "
+        
+#Create an object of the Giraffe class
+gerry=giraffe("Brown & White ", 321,6)
+
+#The eat() methods behaves differently for the lion and Giraffe  classes
+print(simba.eat())
+print(gerry.eat())
